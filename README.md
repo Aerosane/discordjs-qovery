@@ -93,6 +93,8 @@ client.on("message", () => {
 });
 ```
 
+## Getting our bot token:
+
 After we done all this,let's leave the coding part temporarily,we need to fetch bot token from discord developer portal,first we will open https://discord.com/developers/applications and login with discord if you didn't,now steps to fetch a bot token:
 
 1.Create a new app,name it whatever you like,but for this tutorial,I will name it Qoverydjs.
@@ -109,6 +111,8 @@ After clicking on the bot button,create a new bot,name it as you like.
 
 ![discord bot creation](./tutorial/images/bottoken.jpg)
 Then, click on the `copy` button at the screen,so we can save it to use it later.
+
+## Final steps of the main part:
 
 So,as we got the bot token,next step is,we will go back to code part and create `config.json` file,where our bot token will be stored safely,and put the following code in it,you will need to replace Your_bot_token_here with your actual bot token:
 
@@ -160,12 +164,14 @@ and our `config.json` file should be like:
 ```
 Save the code and move to final process(given below).
 
+## Dockerizing app to deploy to Qovery:
+
 Next,we will need to create A file called `Dockerfile` so Qovery can build an container image and deploy our bot,after creating the `Dockerfile` you will need to follow the given steps below:
 
 1.First we need to specify the node version to be used,we will be using Node v14,by adding the follwing code in Dockerfile we can specify the node version:
 
 ```Dockerfile
-FROM node:14
+FROM node:16
 ```
 2.As we need bot to be hosted in a fixed directory and make it work directory which will copy all the code and build from there ,we create an mkdir command,we can use the command by specifying it in Dockerfile,we will need to add the follwing code:
 
