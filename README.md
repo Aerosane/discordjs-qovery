@@ -1,4 +1,4 @@
-# Deploying simple discord.js bot to Qovery(Web console)
+# Deploying simple discord.js bot to Qovery(Web console) For free.
 
 This repository contains tutorial and the total code used in it.
 
@@ -10,7 +10,7 @@ This repository contains tutorial and the total code used in it.
 
 After finising all necessary requirements, you will need to open an account at Qovery.
 
-- Navigate to https://console.qovery.com/login in your desired browser and click on either `Sign in with GitHub` or `Sign in with GitLab` upto you(GitHub recommended). You can create an account at [GitHub](https://github.com/) or [GitLab](https://gitlab.com). In this tutorial we will use GitHub as our application source code is hosted there.
+- Navigate to https://console.qovery.com/login in your desired browser and click on either `Sign in with GitHub` or `Sign in with GitLab` upto you(GitHub recommended). You can create an account at [GitHub](https://github.com/) or [GitLab](https://gitlab.com).Choose the community plan as we want to deploy our apps for free.In this tutorial we will use GitHub as our application source code is hosted there.
 
 After login & filling some optional forms,this is where you should be:
 
