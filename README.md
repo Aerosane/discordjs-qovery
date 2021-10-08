@@ -30,6 +30,8 @@ Now let's create a **new environment**. After a project was successfully created
 
 **Congratulations! Your Qovery environment is now ready to use 🎉**
 
+**important: Qovery gives you free $45 credits in platform credits,the system is on community plan which helps new users get started with Qovery platform,you can earn credits by contributing back to community**
+
 #### Now,about the code part.
 
  We are going to write the actual bot code now to work in `Nodejs`. 
@@ -273,7 +275,7 @@ After creation, you should see a screen like this:
 
 ![Application dashboard](./tutorial/images/appdash.jpg)
 
-From here you will just need to click on the **_Actions_** button and from there select the **_Deploy_** option.
+From here you will just need to click on the **_Actions_** button and from there select the **_Deploy_** option,leave the port blank as we are not deploying any web server for serving apis through the bot(In this tutorial).
 
 ![ actions button](./tutorial/images/deploy.jpg)
 
