@@ -168,7 +168,7 @@ Save the code and move to final process(given below).
 
 Next,we will need to create A file called `Dockerfile` so Qovery can build an container image and deploy our bot,after creating the `Dockerfile` you will need to follow the given steps below:
 
-1.First we need to specify the node version to be used,we will be using Node v14,by adding the follwing code in Dockerfile we can specify the node version:
+1.First we need to specify the node version to be used,we will be using Node v16,by adding the follwing code in Dockerfile we can specify the node version:
 
 ```Dockerfile
 FROM node:16
