@@ -175,11 +175,10 @@ Next,we will need to create A file called `Dockerfile` so Qovery can build an co
 ```Dockerfile
 FROM node:16
 ```
-2.As we need bot to be hosted in a fixed directory and make it work directory which will copy all the code and build from there ,we create an mkdir command,we can use the command by specifying it in Dockerfile,we will need to add the follwing code:
+2.As we need bot to be hosted in a fixed directory and make it work directory which will copy all the code and build from there,we can use the command by specifying it in Dockerfile,we will need to add the follwing code:
 
 ```Dockerfile
-RUN mkdir -p /usr/src/app2
-WORKDIR /usr/src/app2
+WORKDIR /app
 ```
 
 3.We will create an file called `package.json` and add the following code to specify the packages we want to install or in simple words,we tell Dockerfile to fetch dependencies names and install them:
