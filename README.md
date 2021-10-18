@@ -138,6 +138,7 @@ const { Client, Intents } = require('discord.js');
 const { token } = require('./config.json');
 
 const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
+const prefix = ".";
 
 client.on("ready", () => {
   console.log(`${client.user.username} Ready to be in qovery`);
