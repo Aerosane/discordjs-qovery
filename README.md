@@ -4,7 +4,7 @@ This repository contains tutorial and the total code used in it.
 
 ### Prerequisite
 
--[GitHub](https://github.com) account - will be needed for keeping source code at an place and to be linked in Qovery.
+- [GitHub](https://github.com) account - will be needed for keeping source code at an place and to be linked in Qovery.
 
 #### Creating a Qovery account
 
